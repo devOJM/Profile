@@ -450,19 +450,6 @@ p {
         width: 0px;
     }
 
-    @ -webkit-keyframes puff {
-        0% {
-            top: 100%;
-            width: 0px;
-            padding-bottom: 0px;
-        }
-
-        100% {
-            top: 50%;
-            width: 100%;
-            padding-bottom: 100%;
-        }
-    }
 
     @keyframes puff {
         0% {
@@ -503,37 +490,23 @@ p {
         float: none;
     }
 
-    @ -webkit-keyframes materia {
-        0% {
-            background: #E0E0E0;
-        }
 
-        50% {
-            -webkit-border-radius: 4px;
-        }
+}
 
-        100% {
-            width: 280px;
-            height: 440px;
-            background: #FFFFFF;
-            -webkit-border-radius: 4px;
-        }
+@keyframes materia {
+    0% {
+        background: #E0E0E0;
     }
 
-    @keyframes materia {
-        0% {
-            background: #E0E0E0;
-        }
-
-        50% {
-            border-radius: 4px;
-        }
-
-        100% {
-            width: 280px;
-            height: 440px;
-            background: #FFFFFF;
-            border-radius: 4px;
-        }
+    50% {
+        border-radius: 4px;
     }
+
+    100% {
+        width: 280px;
+        height: 440px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+}
 }
